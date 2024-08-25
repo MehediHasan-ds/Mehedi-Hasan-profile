@@ -75,11 +75,13 @@ header ul li{
 form{
     margin: 0px 50px;
     background-color: aquamarine;
-    border: 5px solid black;
+    border: 1px solid rgb(69, 174, 123);
     border-radius:20px;
     padding: 20px;
+    box-shadow: 10px 10px 10px rgb(63, 107, 86);
 }
-fieldset{
+form fieldset{
+    margin: 5px;
     border: 2px solid rgb(41, 61, 88);
     border-radius: 10px;
 }
@@ -88,7 +90,7 @@ form>h3{
     font-size: 30px;
     text-align: center;
 }
-input, textarea{
+form>input, form>textarea{
     margin-bottom: 10px;
     border-radius: 5px;
     background-color: rgb(198, 215, 221);
