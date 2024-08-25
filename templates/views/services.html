@@ -9,8 +9,23 @@
 </head>
 <body>
     <header>
-        <h3>The List of Services are as provided</h3>
+        <section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
         <ul>
+            <h3>The List of Services are as provided</h3>
             <li>Make your own GPT from scratch for your Company</li>
             <li>Make full stack GPT websites or apps for your industry</li>
             <li>Get your Data Analysis task done</li>
@@ -21,18 +36,22 @@
             
             <form>
                 <h3>Schedule a meeting for Getting service</h3>
-                <label for="name">Full Name: </label>
-                <input type="text" name="" id="name" placeholder="Your Name Here">
+                <label for="name" >Full Name: 
+                    <input type="text" name="" id="name" placeholder="Your Name Here">
+                </label>              
 
-                <label for="email">Your Email: </label>
-                <input type="email" name="" id="email" placeholder="xyz@gmail.com">
+                <label for="email" >Your Email: 
+                    <input type="email" name="" id="email" placeholder="xyz@gmail.com">
+                </label>
+                
+                <label for="companyName" >Company Name: 
+                    <input type="text" name="" id="companyName" placeholder="XYZ Company Ltd.">
+                </label>
 
-                <label for="companyName">Company Name: </label>
-                <input type="text" name="" id="companyName" placeholder="XYZ Company Ltd.">
-
-                <label for="address">Company Address: </label>
-                <input type="text" name="" id="address" placeholder="Street, Post Code, City, Country">
-
+                <label for="address" >Company Address: 
+                    <input type="text" name="" id="address" placeholder="Street, Post Code, City, Country">
+                </label>
+                
                 <fieldset class="outer-fieldset">
                     <legend>Select service you need</legend>
                     <label for="gptScratch">

@@ -1,56 +1,113 @@
-nav>ul>li{
+/* home page */
+
+/* navbar design 1 */
+/* nav>ul>li{
     display: inline;
     margin-right: 10px;
 }
 
-nav>li{
+nav li a{
     text-decoration: none;
 }
 nav{
     text-align: right;
+} */
+
+/* navbar design 2 */
+body{
+    margin: 0px;
+    background-color: aliceblue;
 }
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav a{ 
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;   
+}
+nav{
+    margin-right: -1px;
+    background-color: rgb(63, 91, 91);
+    text-align: right;
+    box-shadow: 5px 2px 5px;
+}
+nav a:hover{
+    background-color: rgb(83, 158, 158);
+}
+
 #tinyImage{
     text-align: center;
     position: relative;
-    
 }
 #tinyImage img{
     width: 450px;
     height: 300px;
-
 }
 figure figcaption{
     text-align: right;
     font-size: 10px;
 }
+
+/* services */
 label{
     display: block;
+    margin-bottom: 5px;
 }
 #address{
     width: 50%;
 }
-
+header ul li{
+    margin-left:60px;
+}
 form{
+    margin: 0px 50px;
     background-color: aquamarine;
     border: 5px solid black;
     border-radius:20px;
-    margin:10px;
-    padding: 10px;
+    padding: 20px;
+}
+fieldset{
+    /* background-color: rgb(107, 125, 127); */
+    border: 2px solid rgb(41, 61, 88);
+    border-radius: 10px;
 }
 form>h3{
+    margin-top: 5px;
     font-size: 30px;
     text-align: center;
 }
 input{
     margin-bottom: 10px;
     border-radius: 5px;
+    background-color: rgb(198, 215, 221);
 }
 
+/* about */
 .box{
     text-align: justify;
     margin:20px;
-    border: 10px solid aquamarine;
+    border: 2px solid aquamarine;
+    background-color: rgb(35, 160, 110);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 10px 10px 20px rgb(45, 45, 174);
+    box-shadow: 10px 10px 20px rgb(47, 47, 162);
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.box>article>table{
+    border-collapse: collapse;
 }
