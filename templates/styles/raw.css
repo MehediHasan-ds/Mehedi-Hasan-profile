@@ -11,13 +11,46 @@ nav{
 }
 #tinyImage{
     text-align: center;
+    position: relative;
+    
 }
 #tinyImage img{
     width: 450px;
     height: 300px;
-    display: inline-block;
 
 }
-figcaption{
+figure figcaption{
+    text-align: right;
+    font-size: 10px;
+}
+label{
+    display: block;
+}
+#address{
+    width: 50%;
+}
+
+form{
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-radius:20px;
+    margin:10px;
+    padding: 10px;
+}
+form>h3{
+    font-size: 30px;
     text-align: center;
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.box{
+    text-align: justify;
+    margin:20px;
+    border: 10px solid aquamarine;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgb(45, 45, 174);
 }
