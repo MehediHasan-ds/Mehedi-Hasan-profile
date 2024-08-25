@@ -18,6 +18,9 @@ body{
     margin: 0px;
     background-color: aliceblue;
 }
+main, footer{
+    margin: 20px;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -39,7 +42,6 @@ nav a{
 }
 nav{
     background-color: rgb(63, 91, 91);
-    /* text-align: right; */
     box-shadow: 5px 2px 5px;
 }
 nav a:hover{
@@ -55,7 +57,7 @@ nav a:hover{
     height: 300px;
 }
 figure figcaption{
-    text-align: right;
+    text-align: center;
     font-size: 10px;
 }
 
@@ -78,7 +80,6 @@ form{
     padding: 20px;
 }
 fieldset{
-    /* background-color: rgb(107, 125, 127); */
     border: 2px solid rgb(41, 61, 88);
     border-radius: 10px;
 }
@@ -87,7 +88,7 @@ form>h3{
     font-size: 30px;
     text-align: center;
 }
-input{
+input, textarea{
     margin-bottom: 10px;
     border-radius: 5px;
     background-color: rgb(198, 215, 221);
@@ -96,12 +97,11 @@ input{
 /* about */
 .box{
     text-align: justify;
-    margin:20px;
-    border: 2px solid aquamarine;
+    margin:50px;
     background-color: rgb(35, 160, 110);
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 10px 10px 20px rgb(47, 47, 162);
+    box-shadow: 10px 10px 20px rgb(36, 111, 57);
 }
 td, th{
     border: 1px solid black;
@@ -109,6 +109,10 @@ td, th{
     text-align: center;
 }
 
-.box>article>table{
+table{
     border-collapse: collapse;
+}
+table>caption{
+    margin-bottom: 25px;
+    font-size: 20px;
 }
