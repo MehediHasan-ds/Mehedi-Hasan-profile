@@ -52,10 +52,12 @@ nav li .dropdown{
     display: none;
     position: absolute;
     background-color:rgb(63, 91, 91);
-    margin-right: -10px;
+    margin-left: -10px;
+    align-content:center;
 }
 nav li:hover> .dropdown{
     display: block;
+    
 }
 #tinyImage{
     text-align: center;
@@ -69,6 +71,26 @@ figure figcaption{
     text-align: center;
     font-size: 10px;
 }
+/* about */
+.best_projects{
+    padding: 25px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.best_projects a{
+    text-decoration: none;
+}
+
+.best_projects li{
+    list-style: none;
+    padding: 5px;
+}
+.best_projects h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
 
 /* services */
 label{
@@ -92,7 +114,8 @@ form{
     border-radius:20px;
     padding: 20px;
     box-shadow: 10px 10px 10px rgb(63, 107, 86);
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -113,7 +136,9 @@ form>input, form>textarea{
     border-radius: 5px;
     background-color: rgb(198, 215, 221);
 }
-
+.row1{
+    display: inline;
+}
 /* about */
 .box{
     text-align: justify;
@@ -135,4 +160,30 @@ table{
 table>caption{
     margin-bottom: 25px;
     font-size: 20px;
+}
+
+/* profile */
+.menubar{
+    padding: 2px;
+    background-color: rgb(63, 91, 91);
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    /* flex-direction: column; */
+
+}
+.personal{
+    border: 2px solid burlywood;
+    background: white;
+    /* margin: 10px; */
+    padding: 5px;
+    border: 0px solid;
+    border-radius: 10px;
+    
+    /* display: inline; */
+    /* width: 400px;
+    height: 50px; */
 }
